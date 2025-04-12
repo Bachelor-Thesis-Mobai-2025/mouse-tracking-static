@@ -5,7 +5,7 @@ This project is a web-based questionnaire designed to detect deception based on 
 ## Table of Contents
 
 - [Usage](#usage)
-- [Feauters](#feauters)
+- [Featers](#featers)
 - [Project Structure](#project-structure)
 - [Backend](#backend)
 - [Frontend](#frontend)
