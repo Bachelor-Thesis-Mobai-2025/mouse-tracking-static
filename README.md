@@ -5,6 +5,7 @@ This project is a web-based questionnaire designed to detect deception based on 
 ## Table of Contents
 
 - [Usage](#usage)
+- [Feauters](#feauters)
 - [Project Structure](#project-structure)
 - [Backend](#backend)
 - [Frontend](#frontend)
@@ -20,6 +21,17 @@ The questionnaire will guide the user through two parts: answering truthfully in
 The system tracks mouse movements, pauses, and hesitation during the questionnaire to analyze potential deception.
 
 Upon completion, the data is saved to the server, which logs the user’s session, including mouse data and responses.
+
+## Features
+- Single layout design
+- Mouse tracking and collecting data like position, velocity, acceleration, pause, hesitation, jerks
+- Experimental design:
+  - Truthful vs. Deceptive response tracking
+  - Fixed yes/no button placement
+  - Comprehensive data logging
+- Data Analysis:
+  - Calculating average values
+  - Graphical presentation of results
 
 ## Project Structure
 
