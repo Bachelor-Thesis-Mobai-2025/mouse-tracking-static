@@ -34,7 +34,7 @@ The frontend consists of an interactive questionnaire displayed on the browser, 
 
 index.html: The HTML file provides the structure for the questionnaire.
 
-<img src="https://github.com/user-attachments/assets/46696f14-2746-45bd-883c-92590c5f4fc2" width="300" />
+<img src="https://github.com/user-attachments/assets/46696f14-2746-45bd-883c-92590c5f4fc2" width="550" />
 
 ![3](https://github.com/user-attachments/assets/4d0992b5-9f28-422b-ab17-9d43278e9aeb=550x450|width=450)
 
