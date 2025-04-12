@@ -20,6 +20,72 @@ The system tracks mouse movements, pauses, and hesitation during the questionnai
 
 Upon completion, the data is saved to the server, which logs the user’s session, including mouse data and responses.
 
+## Project Structure
+
+```
+project-folder
+├──averaged_charts
+│   ├──acceleration_comparison.png
+│   ├──comparison_stats_chart.png
+│   ├──curvature_comparison.png
+│   ├──jerk_comparison.png
+│   ├──lie_average_mouse_pattern.png
+│   ├──lie_jerks.png
+│   ├──truth_average_mouse_pattern.png
+│   └──truth_jerks.png
+├──averaged_json
+│   ├──lie_average_mouse_path.json
+│   ├──lie_mouse_stats_summary.json
+│   ├──truth_average_mouse_path.json
+│   └──truth_mouse_stats_summary.json
+├──public
+│   ├──index.html
+│   ├──script.js
+│   └──styles.css
+├──questionnaire_sessions
+├──utils
+│   ├──average_mouse_pattern.py
+│   ├──average_mouse_stats_chart.py
+│   ├──average_mouse_stats.py
+│   ├──calc_averages.py
+│   ├──plot_mouse_analyse.py
+│   └──plot_mouse_jerk.py
+├──package-lock.json
+├──package.json
+└──server.js
+``````
+project-folder
+├──averaged_charts
+│   ├──acceleration_comparison.png
+│   ├──comparison_stats_chart.png
+│   ├──curvature_comparison.png
+│   ├──jerk_comparison.png
+│   ├──lie_average_mouse_pattern.png
+│   ├──lie_jerks.png
+│   ├──truth_average_mouse_pattern.png
+│   └──truth_jerks.png
+├──averaged_json
+│   ├──lie_average_mouse_path.json
+│   ├──lie_mouse_stats_summary.json
+│   ├──truth_average_mouse_path.json
+│   └──truth_mouse_stats_summary.json
+├──public
+│   ├──index.html
+│   ├──script.js
+│   └──styles.css
+├──questionnaire_sessions
+├──utils
+│   ├──average_mouse_pattern.py
+│   ├──average_mouse_stats_chart.py
+│   ├──average_mouse_stats.py
+│   ├──calc_averages.py
+│   ├──plot_mouse_analyse.py
+│   └──plot_mouse_jerk.py
+├──package-lock.json
+├──package.json
+└──server.js
+```
+
 ## Backend
 The backend is built using Node.js and Express. It serves the front-end files and handles requests to save questionnaire data. Here's a breakdown of the backend functionality:
 
