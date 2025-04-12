@@ -81,7 +81,7 @@ POST /save-data: Receives data from the client, validates it, and saves it to a 
 The server creates session folders and saves the response data (including mouse movements, hesitation, speed, and jerks) to JSON files for further analysis.
 
 ## Frontend
-The frontend consists of an interactive questionnaire displayed on the browser, where the user answers a series of questions:
+The frontend consists of an interactive questionnaire displayed on the browser, where the user answers a series of questions. One layout has been used in this prototype:
 
 <img src="https://github.com/user-attachments/assets/46696f14-2746-45bd-883c-92590c5f4fc2" width="600" />
 
