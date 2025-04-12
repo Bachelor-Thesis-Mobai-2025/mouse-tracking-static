@@ -42,7 +42,12 @@ project-folder
 │   ├──index.html
 │   ├──script.js
 │   └──styles.css
-├──questionnaire_sessions
+├──questionnaire_sessions                 # Folder contains collected and sorted data
+│   ├──lie                                # Subfolders are not included
+│   ├──truth                              # They are included for graphical representation
+│   └──session_1743403663235
+│      ├──part_1
+│      └──part_2
 ├──utils
 │   ├──average_mouse_pattern.py
 │   ├──average_mouse_stats_chart.py
