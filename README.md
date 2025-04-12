@@ -34,11 +34,8 @@ The frontend consists of an interactive questionnaire displayed on the browser, 
 
 index.html: The HTML file provides the structure for the questionnaire.
 
-![Screenshot 2025-04-12 232431](https://github.com/user-attachments/assets/58fe6f46-d591-4ba5-b30a-15d6d687954c)
+![Screenshot 2025-04-12 232554](https://github.com/user-attachments/assets/088e8c4e-4223-450e-935f-8b6d2396df9e)
 
-![Screenshot 2025-04-12 232507](https://github.com/user-attachments/assets/de8f383f-70a9-4085-9445-dec55d728ee9)
-
-![Screenshot 2025-04-12 232554](https://github.com/user-attachments/assets/4b3c91de-acbf-415e-9b94-c7fc0e4baead)
 
 script.js: The JavaScript file handles the logic for displaying the questions, tracking mouse movements, and determining hesitation or pauses. It sends data to the backend for storage.
 
