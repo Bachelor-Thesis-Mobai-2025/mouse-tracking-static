@@ -89,11 +89,11 @@ The frontend consists of an interactive questionnaire displayed on the browser, 
 
 <img src="https://github.com/user-attachments/assets/d02d63b7-42ac-4790-a152-7a3882ce7622" width="600" />
 
-**index.html**: The HTML file provides the structure for the questionnaire.
+**`index.html`**: The HTML file provides the structure for the questionnaire.
 
-**script.js**: The JavaScript file handles the logic for displaying the questions, tracking mouse movements, and determining hesitation or pauses. It sends data to the backend for storage.
+**`script.js`**: The JavaScript file handles the logic for displaying the questions, tracking mouse movements, and determining hesitation or pauses. It sends data to the backend for storage.
 
-**styles.css**: Provides the styles and layout for the questionnaire.
+**`styles.css`**: Provides the styles and layout for the questionnaire.
 
 The front-end tracks the following:
 
