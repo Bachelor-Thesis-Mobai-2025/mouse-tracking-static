@@ -101,6 +101,31 @@ The front-end tracks the following:
 - Hesitation (based on pauses or lack of movement).
 - Deception flags based on patterns observed during the interaction.
 
+## Saved data
+
+During questionare, mouse movment data are saved in JSON file. Example:
+```
+{
+    "question": "Are you currently a student at NTNU?",
+    "answer": "Yes",
+    "mouseMovements": [
+        [524, 571], [525, 570], [526, 568], ...
+    ],
+    "timestamps": [1.237, 1.246, 1.254, ...],
+    "accelerations": [0, -52152.97, 15296.70, ...],
+    "jerks": [0, 0, 0, ...],
+    "curvatures": [0, 0, 0, 0.1789, ...],
+    "pausePoints": [],
+    "hesitation": 0,
+    "hesitationLevel": "low",
+    "totalTime": 2.545,
+    "averageSpeed": 345.146,
+    "deceptionFlag": false,
+    "jerkSpikeCount": 7,
+    "label": 0
+}
+```
+
 ## Contributing
 Fork the repository.
 
