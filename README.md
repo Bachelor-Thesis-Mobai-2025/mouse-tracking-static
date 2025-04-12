@@ -24,7 +24,7 @@ Upon completion, the data is saved to the server, which logs the user’s sessio
 
 ```
 project-folder
-├──averaged_charts
+├──averaged_charts                                   
 │   ├──acceleration_comparison.png
 │   ├──comparison_stats_chart.png
 │   ├──curvature_comparison.png
@@ -54,6 +54,15 @@ project-folder
 ├──package.json
 └──server.js
 ```
+Descripton of project folder:
+
+**project_folder**: Contains **server.js**, backend server for handling requests and saving data
+**averaged_charts**: Folder contains graphical representations, chart and analysys of collected data.
+**averaged_json**: Folder contains json files with calculated averaged values from collected data.
+**public**: Folder contains **script.js** with algorithm for collecting and saving necessary data through the questionare(**index.html**,**style.css**).
+**questionnaire_sessions**: Folder for saving data in json files from user input, through questionare. 
+Notice: After collection is done, selection of files is done into two folders **lie** and **truth** for analysing (Not included in repo).
+**utils**: Folder contains programs for calculating average values of collected data and visual representation of results for further analysys.
 
 
 
