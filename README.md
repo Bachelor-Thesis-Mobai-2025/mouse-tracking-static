@@ -32,21 +32,23 @@ The server creates session folders and saves the response data (including mouse 
 ## Frontend
 The frontend consists of an interactive questionnaire displayed on the browser, where the user answers a series of questions:
 
-index.html: The HTML file provides the structure for the questionnaire.
-
 <img src="https://github.com/user-attachments/assets/46696f14-2746-45bd-883c-92590c5f4fc2" width="600" />
+
 <img src="https://github.com/user-attachments/assets/4d0992b5-9f28-422b-ab17-9d43278e9aeb" width="600" />
+
 <img src="https://github.com/user-attachments/assets/d02d63b7-42ac-4790-a152-7a3882ce7622" width="600" />
 
-script.js: The JavaScript file handles the logic for displaying the questions, tracking mouse movements, and determining hesitation or pauses. It sends data to the backend for storage.
+**index.html**: The HTML file provides the structure for the questionnaire.
 
-styles.css: Provides the styles and layout for the questionnaire.
+**script.js**: The JavaScript file handles the logic for displaying the questions, tracking mouse movements, and determining hesitation or pauses. It sends data to the backend for storage.
+
+**styles.css**: Provides the styles and layout for the questionnaire.
 
 The front-end tracks the following:
 
-Mouse movements (to calculate speed, acceleration, jerk, and curvatures).
+- Mouse movements (to calculate speed, acceleration, jerk, and curvatures).
 
-Hesitation (based on pauses or lack of movement).
+- Hesitation (based on pauses or lack of movement).
 
-Deception flags based on patterns observed during the interaction.
+- Deception flags based on patterns observed during the interaction.
 
