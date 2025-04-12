@@ -103,7 +103,7 @@ The front-end tracks the following:
 
 ## Saved data
 
-During questionare, mouse movment data are saved in JSON file. Example:
+During questionare, mouse movement data are saved in JSON file. Example:
 ```
 {
     "question": "Are you currently a student at NTNU?",
