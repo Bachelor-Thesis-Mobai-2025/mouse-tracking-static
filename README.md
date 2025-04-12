@@ -62,12 +62,12 @@ project-folder
 ```
 Descripton of project folder:
 
-- **project_folder**: Contains **server.js**, backend server for handling requests and saving data
-- **averaged_charts**: Folder contains graphical representations, chart and analysys of collected data.
-- **averaged_json**: Folder contains json files with calculated averaged values from collected data.
-- **public**: Folder contains **script.js** with algorithm for collecting and saving necessary data through the questionare(**index.html**, **style.css**).
-- **questionnaire_sessions**: Folder for saving data in json files from user input, through questionare.
-- **utils**: Folder contains programs for calculating average values of collected data and visual representation of results for further analysys.
+- **project_folder**: contains **server.js**, backend server for handling requests and saving data
+- **averaged_charts**: contains graphical representations, chart and analysys of collected data.
+- **averaged_json**: contains json files with calculated averaged values from collected data.
+- **public**: contains **script.js** with algorithm for collecting and saving necessary data through the questionare(**index.html**, **style.css**).
+- **questionnaire_sessions**: contains saved data in json files from user input, through questionare.
+- **utils**: contains programs for calculating average values of collected data and visual representation of results for further analysys.
 
 
 
