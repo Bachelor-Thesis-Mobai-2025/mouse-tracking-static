@@ -12,7 +12,7 @@ This project is a web-based questionnaire designed to detect deception based on 
 - [License](#license)
 
 ## Usage
-Open the browser and navigate to http://localhost:3000.
+Starting server and navigation to http://localhost:3000.
 
 The questionnaire will guide the user through two parts: answering truthfully in the first part and then lying in the second part.
 
