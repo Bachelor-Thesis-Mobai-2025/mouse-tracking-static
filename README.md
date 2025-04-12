@@ -48,6 +48,20 @@ The front-end tracks the following:
 
 - Mouse movements (to calculate speed, acceleration, jerk, and curvatures).
 
+## Contributing
+Fork the repository.
+
+Create a new branch: git checkout -b feature/new-feature.
+
+Commit your changes: git commit -m 'Add new feature'.
+
+Push to the branch: git push origin feature/new-feature.
+
+Open a pull request.
+
+## License
+This project is licensed under the MIT License 
+
 - Hesitation (based on pauses or lack of movement).
 
 - Deception flags based on patterns observed during the interaction.
