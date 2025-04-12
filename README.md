@@ -125,6 +125,52 @@ During questionare, mouse movement data are saved in JSON file. Example:
     "label": 0
 }
 ```
+Description of parameters:
+
+### **1. `question`**:
+   - The question asked to the user.
+
+### **2. `answer`**:
+   - The user's response to the question.
+
+### **3. `mouseMovements`**:
+   - An array of **[x, y]** coordinates tracking the mouse position over time.
+
+### **4. `timestamps`**:
+   - An array of timestamps corresponding to each mouse movement.
+
+### **5. `accelerations`**:
+   - The rate of change of the mouse's velocity at each timestamp.
+
+### **6. `jerks`**:
+   - The rate of change of acceleration (jerk) in the mouse movement.
+
+### **7. `curvatures`**:
+   - The curvature of the mouse’s path, indicating sharpness of movement.
+
+### **8. `pausePoints`**:
+   - Points where the user paused, usually representing breaks in mouse movement.
+
+### **9. `hesitation`**:
+   - A numerical value representing the amount of hesitation in the response.
+
+### **10. `hesitationLevel`**:
+   - A qualitative measure of hesitation, e.g., "low", "medium", or "high".
+
+### **11. `totalTime`**:
+   - Total time (in seconds) the user took to answer the question.
+
+### **12. `averageSpeed`**:
+   - The average speed of the mouse movement during the response.
+
+### **13. `deceptionFlag`**:
+   - A flag indicating whether deception was detected (true/false).
+
+### **14. `jerkSpikeCount`**:
+   - The number of jerk spikes (abrupt changes in acceleration) during the response.
+
+### **15. `label`**:
+   - The label for the response (0 for truthful, 1 for deceptive).
 
 ## Contributing
 Fork the repository.
