@@ -128,9 +128,9 @@ During questionare, mouse movement data are saved in JSON file. Example:
 Description of parameters:
 
 **1. `question`**:
-   - The question asked to the user.
+   - The question asked to the user.<br>
 **2. `answer`**:
-   - The user's response to the question.
+   - The user's response to the question.<br>
 **3. `mouseMovements`**:
    - An array of **[x, y]** coordinates tracking the mouse position over time.
 **4. `timestamps`**:
