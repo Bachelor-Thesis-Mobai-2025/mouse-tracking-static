@@ -47,6 +47,8 @@ The frontend consists of an interactive questionnaire displayed on the browser, 
 The front-end tracks the following:
 
 - Mouse movements (to calculate speed, acceleration, jerk, and curvatures).
+- Hesitation (based on pauses or lack of movement).
+- Deception flags based on patterns observed during the interaction.
 
 ## Contributing
 Fork the repository.
@@ -61,8 +63,4 @@ Open a pull request.
 
 ## License
 This project is licensed under the MIT License 
-
-- Hesitation (based on pauses or lack of movement).
-
-- Deception flags based on patterns observed during the interaction.
 
