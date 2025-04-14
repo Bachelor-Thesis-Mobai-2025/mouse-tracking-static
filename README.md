@@ -185,12 +185,20 @@ Description of parameters:
    - The label for the response (0 for truthful, 1 for deceptive).
 
 ## Analysis of collected data
-**Comparison stats chart**
+
 ![comparison_stats_chart](https://github.com/user-attachments/assets/a930ab5c-9014-4514-a28a-d6f996d937f8)
-**Truth average mouse pattern**
+
 ![truth_average_mouse_pattern](https://github.com/user-attachments/assets/43ec3c1b-eb31-4c3e-9f06-8cad8d399dbf)
-**Lie average mouse pattern**
+
 ![lie_average_mouse_pattern](https://github.com/user-attachments/assets/ef773b3c-ab75-43dd-9e58-129da9c3b2fa)
+
+![curvature_comparison](https://github.com/user-attachments/assets/57b82f95-91bc-4584-b430-f76ddc7dd6ab)
+
+![acceleration_comparison](https://github.com/user-attachments/assets/20e865b1-b6ba-40cf-8d45-8c6c67ca1199)
+
+![truth_jerks](https://github.com/user-attachments/assets/df0abc36-60a3-4d32-b1ec-8a5f90ef3f0f)
+
+![lie_jerks](https://github.com/user-attachments/assets/f3457f99-a428-4842-a918-c11d5f1a6d8d)
 
 ## Contributing
 Fork the repository.
