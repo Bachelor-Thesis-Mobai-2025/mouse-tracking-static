@@ -184,6 +184,14 @@ Description of parameters:
 #### **15. `label`**:
    - The label for the response (0 for truthful, 1 for deceptive).
 
+## Analysis of collected data
+**Comparison stats chart**
+![comparison_stats_chart](https://github.com/user-attachments/assets/a930ab5c-9014-4514-a28a-d6f996d937f8)
+**Truth average mouse pattern**
+![truth_average_mouse_pattern](https://github.com/user-attachments/assets/43ec3c1b-eb31-4c3e-9f06-8cad8d399dbf)
+**Lie average mouse pattern**
+![lie_average_mouse_pattern](https://github.com/user-attachments/assets/ef773b3c-ab75-43dd-9e58-129da9c3b2fa)
+
 ## Contributing
 Fork the repository.
 
