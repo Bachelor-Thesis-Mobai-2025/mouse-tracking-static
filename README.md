@@ -185,7 +185,7 @@ Description of parameters:
    - The label for the response (0 for truthful, 1 for deceptive).
 
 ## Analysis of collected data
-
+Programs used for analysing collected data:
 - **`average_mouse_pattern.py`**: processes and visualizes mouse movement data to generate an average mouse movement path for a given set of trajectories (each path is resampled to 100 points using cubic spline interpolation).<br>
 - **`average_mouse_stats.py`** and **`average_mouse_stats_chart.py`**: designed to summarize and visualy represent mouse movement statistics from a set of JSON files in a given folder.<br>
 - **`calc_averages.py`**: designed for mouse movement analysis that computes averages and derived metrics (like jerk and curvature) from JSON data files.<br>
