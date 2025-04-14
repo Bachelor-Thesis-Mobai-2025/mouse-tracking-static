@@ -189,8 +189,10 @@ Description of parameters:
 ![comparison_stats_chart](https://github.com/user-attachments/assets/a930ab5c-9014-4514-a28a-d6f996d937f8)
 
 ![truth_average_mouse_pattern](https://github.com/user-attachments/assets/43ec3c1b-eb31-4c3e-9f06-8cad8d399dbf)
+- "Truth" path likely follows a straighter or smoother trajectory. This is a common finding in studies analyzing mouse movements for deception detection.
 
 ![lie_average_mouse_pattern](https://github.com/user-attachments/assets/ef773b3c-ab75-43dd-9e58-129da9c3b2fa)
+- "Lie" path deviates more from the straight "Start-End Line," indicating less direct or more erratic movement.
 
 ![curvature_comparison](https://github.com/user-attachments/assets/57b82f95-91bc-4584-b430-f76ddc7dd6ab)
 
