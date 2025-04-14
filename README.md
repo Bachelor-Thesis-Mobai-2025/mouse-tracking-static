@@ -209,7 +209,7 @@ Programs used for analysing collected data:
 ![truth_jerks](https://github.com/user-attachments/assets/df0abc36-60a3-4d32-b1ec-8a5f90ef3f0f)
 - Deceptive mouse movements shows a much higher peak jerk than truthful mouse movements, indicating more abrupt changes in movement, possibly reflecting hesitation or correction.
 
-![lie_jerks](https://github.com/user-attachments/assets/f3457f99-a428-4842-a918-c11d5f1a6d8d)
+![lie_jerks](https://github.com/user-attachments/assets/8f26b30b-4c14-4ee1-84ad-af12b28db87c)
 - 6 spike counts were detected in truthful mouse movements and 12 spike counts in deceptive mouse movements which suggests more frequent rapid changes in motion during deception.
 
 ## Contributing
