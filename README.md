@@ -198,7 +198,7 @@ Programs used for analysing collected data:
 - Truthful mouse movements likely follows a straighter or smoother trajectory.
 
 ![lie_average_mouse_pattern](https://github.com/user-attachments/assets/ef773b3c-ab75-43dd-9e58-129da9c3b2fa)
-- Deceptive mouse movements deviates more from the straight "Start-End Line," indicating less direct or more erratic movement.
+- Deceptive mouse movements deviates more from the straight "Start-End" line, indicating less direct or more erratic movement.
 
 ![curvature_comparison](https://github.com/user-attachments/assets/57b82f95-91bc-4584-b430-f76ddc7dd6ab)
 - The graph robustly demonstrates that truthful mouse movements are straighter, while lies introduce measurable curvature.
@@ -207,10 +207,10 @@ Programs used for analysing collected data:
 - Truthful mouse movements exhibit smoother acceleration, while deceptive ones are more erratic and variable.
 
 ![truth_jerks](https://github.com/user-attachments/assets/df0abc36-60a3-4d32-b1ec-8a5f90ef3f0f)
-- Deceptive mouse movements shows a much higher peak jerk than Truthful mouse movements, indicating more abrupt changes in movement, possibly reflecting hesitation or correction.
+- Deceptive mouse movements shows a much higher peak jerk than truthful mouse movements, indicating more abrupt changes in movement, possibly reflecting hesitation or correction.
 
 ![lie_jerks](https://github.com/user-attachments/assets/f3457f99-a428-4842-a918-c11d5f1a6d8d)
-- 6 spike count were detected in truthful mouse movements. 12 spikes in deceptive mouse movements which suggests more frequent rapid changes in motion during deception.
+- 6 spike counts were detected in truthful mouse movements and 12 spike counts in deceptive mouse movements which suggests more frequent rapid changes in motion during deception.
 
 ## Contributing
 Fork the repository.
