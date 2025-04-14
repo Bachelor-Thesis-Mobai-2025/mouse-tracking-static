@@ -57,7 +57,7 @@ project-folder
 │   └──styles.css
 ├──questionnaire_sessions                 # Notice: Folder contains collected and sorted data
 │   ├──lie                                # Subfolders are not included
-│   ├──truth                              # They are presented here for graphical representation
+│   ├──truth                              # They are here for graphical representation
 │   └──session_1743403663235
 │      ├──part_1
 │      └──part_2
