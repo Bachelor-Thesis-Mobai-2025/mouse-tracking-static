@@ -10,6 +10,7 @@ This project is a web-based questionnaire designed to detect deception based on 
 - [Backend](#backend)
 - [Frontend](#frontend)
 - [Saved data](#saved-data)
+- [Analysis of collected data](#analysis-of-collected-data)
 - [Contributing](#contributing)
 - [License](#license)
 
