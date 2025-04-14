@@ -186,11 +186,11 @@ Description of parameters:
 
 ## Analysis of collected data
 
-**`average_mouse_pattern.py`**: processes and visualizes mouse movement data to generate an average mouse movement path for a given set of trajectories (each path is resampled to 100 points using cubic spline interpolation).<br>
-**`average_mouse_stats.py`** and **`average_mouse_stats_chart.py`**: designed to summarize and visualy represent mouse movement statistics from a set of JSON files in a given folder.<br>
-**`calc_averages.py`**: designed for mouse movement analysis that computes averages and derived metrics (like jerk and curvature) from JSON data files.<br>
-**`plot_mouse_analyse.py`**: compares averaged mouse movement metrics (acceleration, curvature, jerk).<br>
-**`plot_mouse_jerk.py`**: analyzes jerk (derivative of acceleration) to detect spikes (sudden movements).<br>
+- **`average_mouse_pattern.py`**: processes and visualizes mouse movement data to generate an average mouse movement path for a given set of trajectories (each path is resampled to 100 points using cubic spline interpolation).<br>
+- **`average_mouse_stats.py`** and **`average_mouse_stats_chart.py`**: designed to summarize and visualy represent mouse movement statistics from a set of JSON files in a given folder.<br>
+- **`calc_averages.py`**: designed for mouse movement analysis that computes averages and derived metrics (like jerk and curvature) from JSON data files.<br>
+- **`plot_mouse_analyse.py`**: compares averaged mouse movement metrics (acceleration, curvature, jerk).<br>
+- **`plot_mouse_jerk.py`**: analyzes jerk (derivative of acceleration) to detect spikes (sudden movements).<br>
 
 ![comparison_stats_chart](https://github.com/user-attachments/assets/a930ab5c-9014-4514-a28a-d6f996d937f8)
 
