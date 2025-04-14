@@ -195,7 +195,7 @@ Programs used for analysing collected data:
 ![comparison_stats_chart](https://github.com/user-attachments/assets/a930ab5c-9014-4514-a28a-d6f996d937f8)
 
 ![truth_average_mouse_pattern](https://github.com/user-attachments/assets/43ec3c1b-eb31-4c3e-9f06-8cad8d399dbf)
--Truthful mouse movements likely follows a straighter or smoother trajectory.
+- Truthful mouse movements likely follows a straighter or smoother trajectory.
 
 ![lie_average_mouse_pattern](https://github.com/user-attachments/assets/ef773b3c-ab75-43dd-9e58-129da9c3b2fa)
 - Deceptive mouse movements deviates more from the straight "Start-End Line," indicating less direct or more erratic movement.
