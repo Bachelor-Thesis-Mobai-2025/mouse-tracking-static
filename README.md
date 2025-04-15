@@ -285,7 +285,7 @@ Evaluation Metrics:
 Model Persistence:
  - Trained model is saved as **`best_lstm_gru_model.h5`**
 
-Neural network architecture:
+
 ![Screenshot 2025-04-15 102645](https://github.com/user-attachments/assets/7a09b49f-578e-4884-805d-3438080fd836)
 
 Results with current network:
