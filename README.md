@@ -49,15 +49,18 @@ project-folder
 │   ├──lie_jerks.png
 │   ├──truth_average_mouse_pattern.png
 │   └──truth_jerks.png
+│ 
 ├──averaged_json
 │   ├──lie_average_mouse_path.json
 │   ├──lie_mouse_stats_summary.json
 │   ├──truth_average_mouse_path.json
 │   └──truth_mouse_stats_summary.json
+│ 
 ├──public
 │   ├──index.html
 │   ├──script.js
 │   └──styles.css
+│ 
 ├──questionnaire_sessions                 # Notice: Folder contains collected and sorted data
 │   ├──lie                                # Subfolders are not included
 │   ├──truth                              # They are here for graphical presentation
