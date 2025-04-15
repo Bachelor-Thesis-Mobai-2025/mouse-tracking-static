@@ -265,9 +265,9 @@ Split:
 Training Strategy:
 - Optimizer: **Adam**
 
-- Loss: *binary_crossentropy*
+- Loss: **binary_crossentropy**
 
-- Early stopping with patience = *5 epochs* (restores best weights).
+- Early stopping with patience = **5 epochs** (restores best weights).
 
 - Batch size: **32**
 
@@ -323,16 +323,16 @@ Interpretation per class:
 - Visualization outputs stored in the Images directory.
 
 ## Technologies Used
-- Backend: JavaScript
-- Frontend: HTML, CSS, JavaScript
+- Backend: **JavaScript**
+- Frontend: **HTML, CSS, JavaScript**
 - Data Analysis:
-  - Pandas
-  - NumPy
-  - Matplotlib
-  - Seaborn
+  - **Pandas**
+  - **NumPy**
+  - **Matplotlib**
+  - **Seaborn**
 - Machine Learning:
-  - TensorFlow/Keras (neural network implementation)
-  - Scikit-learn (data splitting and evaluation)
+  - **TensorFlow/Keras** (neural network implementation)
+  - **Scikit-learn** (data splitting and evaluation)
 
 ## Contributing
 Fork the repository.
