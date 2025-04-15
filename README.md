@@ -219,7 +219,7 @@ Programs used for analysing collected data:
 Deep Learning Model Architecture:
 - Input: Sequences of mouse movement features (150 timesteps × 6 features)
 
-- Model: LSTM → GRU → Dense → Dropout → Sigmoid
+- Model: **LSTM → GRU → Dense → Dropout → Sigmoid**
 
 - LSTM (64): Captures long-term temporal dependencies.
 
@@ -231,15 +231,15 @@ Deep Learning Model Architecture:
 
 Input Features from JSON files containing mouse trajectory data:
 
-- x, y coordinates
+- **x, y coordinates**
 
-- velocity
+- **velocity**
 
-- acceleration
+- **acceleration**
 
-- jerk
+- **jerk**
   
-- curvature
+- **curvature**
   
 Each sequence is padded or truncated to 150 time steps.
 
@@ -254,11 +254,11 @@ Combines, labels (0 for truthful, 1 for deceptive), and normalizes input.
 
 Split:
 
-- 70% training
+- **70% training**
 
-- 20% validation
+- **20% validation**
 
-- 10% test
+- **10% test**
 
 Training Strategy:
 - Optimizer: Adam
@@ -274,13 +274,13 @@ Training Strategy:
 Evaluation Metrics:
 -Final evaluation on the test set:
 
- - Macro F1 score
+ - **Macro F1 score**
 
- - Classification report
+ - **Classification report**
 
- - Confusion matrix
+ - **Confusion matrix**
 
- - Loss curves
+ - **Loss curves**
 
 Model Persistence:
  - Trained model is saved as **`best_lstm_gru_model.h5`**
@@ -290,7 +290,7 @@ Model Persistence:
 
 Results with current network:
 
-Overall accuracy **60%**.
+Overall accuracy 0.60 ≈ 60%, model is correctly predicting 42 out of 70 samples.
 
 ![confusion_matrix](https://github.com/user-attachments/assets/2cc60420-08b9-4861-9d85-1be1b96d5155)
 
