@@ -289,7 +289,6 @@ Model Persistence:
 
 <kbd>
   <img src="[https://i.sstatic.net/CtiyS.png](https://github.com/user-attachments/assets/7a09b49f-578e-4884-805d-3438080fd836)">
-![Screenshot 2025-04-15 102645](https://github.com/user-attachments/assets/7a09b49f-578e-4884-805d-3438080fd836)
 </kbd>
 
 Results with current network:
