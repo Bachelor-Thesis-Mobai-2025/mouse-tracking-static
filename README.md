@@ -285,10 +285,10 @@ Evaluation Metrics:
  - **Loss curves**
 
 Model Persistence:
- - Trained model is saved as **`best_lstm_gru_model.h5`**
+ - Trained model is saved as **`best_lstm_gru_model.h5`**<br />
 
 <kbd>
-  <img src="https://github.com/user-attachments/assets/7a09b49f-578e-4884-805d-3438080fd836">
+  <img src="https://github.com/user-attachments/assets/7a09b49f-578e-4884-805d-3438080fd836"><br /><br />
 </kbd>
 
 Results with current network:
