@@ -293,7 +293,7 @@ Model Persistence:
  <br>
 <br>Results with current network:
 
-Overall accuracy 0.60 ≈ 60%, model is correctly predicting 42 out of 70 samples.
+- Overall accuracy 0.60 ≈ 60%, model is correctly predicting 42 out of 70 samples.
 
 ![confusion_matrix](https://github.com/user-attachments/assets/2cc60420-08b9-4861-9d85-1be1b96d5155)
 
