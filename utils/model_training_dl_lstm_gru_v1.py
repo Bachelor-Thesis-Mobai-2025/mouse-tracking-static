@@ -100,11 +100,11 @@ history = model.fit(
 
 # Save the best model
 model.save("best_lstm_gru_model.h5")
-print("✅ Model saved as best_lstm_gru_model.h5")
+print("Model saved as best_lstm_gru_model.h5")
 
 # Evaluation
 y_pred = (model.predict(X_test) > 0.5).astype(int)
-print("\n✅ Final Evaluation on Test Set")
+print("\nFinal Evaluation on Test Set")
 print("Macro F1:", f1_score(y_test, y_pred, average='macro'))
 print(classification_report(y_test, y_pred))
 
