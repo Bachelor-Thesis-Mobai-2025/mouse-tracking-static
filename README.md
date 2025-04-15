@@ -290,6 +290,8 @@ Model Persistence:
 
 Results with current network:
 
+Overall accuracy **60%**.
+
 ![confusion_matrix](https://github.com/user-attachments/assets/2cc60420-08b9-4861-9d85-1be1b96d5155)
 
 Interpretation per class:
