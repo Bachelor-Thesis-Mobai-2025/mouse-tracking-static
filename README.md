@@ -288,7 +288,7 @@ Model Persistence:
  - Trained model is saved as **`best_lstm_gru_model.h5`**
 
 <kbd>
-  <img src="[https://i.sstatic.net/CtiyS.png](https://github.com/user-attachments/assets/7a09b49f-578e-4884-805d-3438080fd836)">
+  <img src="https://github.com/user-attachments/assets/7a09b49f-578e-4884-805d-3438080fd836">
 </kbd>
 
 Results with current network:
