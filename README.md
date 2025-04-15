@@ -263,15 +263,15 @@ Split:
 - **10% test**
 
 Training Strategy:
-- Optimizer: *Adam*
+- Optimizer: **Adam**
 
 - Loss: *binary_crossentropy*
 
 - Early stopping with patience = *5 epochs* (restores best weights).
 
-- Batch size: *32*
+- Batch size: **32**
 
-- Epochs: *50 max*
+- Epochs: **50 max**
 
 Evaluation Metrics:
 -Final evaluation on the test set:
