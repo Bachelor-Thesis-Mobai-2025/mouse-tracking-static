@@ -214,7 +214,7 @@ Programs used for analysing collected data:
 - 6 spike counts were detected in truthful mouse movements and 12 spike counts in deceptive mouse movements which suggests more frequent rapid changes in motion during deception.
 
 ## Neural network modeling 
-**`model_training_dl_lstm_gru_v1.py`**: classify whether a mouse movement sequence corresponds to a truthful or deceptive response by learning patterns from time-series features like position, velocity, acceleration, etc..<br>
+**`model_training_dl_lstm_gru_v1.py`**: classify whether a mouse movement sequence corresponds to a truthful or deceptive response by learning patterns from time-series features like position, velocity, acceleration, etc.<br>
 
 Deep Learning Model Architecture:
 - Input: Sequences of mouse movement features (150 timesteps × 6 features)
@@ -287,6 +287,16 @@ Model Persistence:
 
 Neural network architecture:
 ![Screenshot 2025-04-15 102645](https://github.com/user-attachments/assets/7a09b49f-578e-4884-805d-3438080fd836)
+
+Results with current network:
+
+![confusion_matrix](https://github.com/user-attachments/assets/2cc60420-08b9-4861-9d85-1be1b96d5155)
+
+![training_validation_loss](https://github.com/user-attachments/assets/6ec9d568-5c87-4037-b257-bd12a7a91b78)
+
+![feature_importance](https://github.com/user-attachments/assets/fcb22bbe-4508-4389-8f33-12359ea1c8f8)
+
+![feature_correlation_matrix](https://github.com/user-attachments/assets/8b7d716a-092e-4102-821c-48179677215f)
 
 
 
