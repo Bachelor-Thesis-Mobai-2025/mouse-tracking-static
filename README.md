@@ -292,7 +292,20 @@ Results with current network:
 
 ![confusion_matrix](https://github.com/user-attachments/assets/2cc60420-08b9-4861-9d85-1be1b96d5155)
 
+Interpretation per class:
+- Class 0: Truthful
+  - Precision (0.73): When the model predicts truthful, it's correct 73% of the time.
+  - Recall (0.31): Only catches 31% of the actual truthful responses → many are missed (false negatives).
+
+- Class 1: Deceptive
+  - Precision (0.56): Slightly above random for deceptive predictions.
+  - Recall (0.89): Very good — it finds most of the deceptive cases.
+
 ![training_validation_loss](https://github.com/user-attachments/assets/6ec9d568-5c87-4037-b257-bd12a7a91b78)
+
+- Training Loss is decreasing, which means the model is learning from the training data.
+
+- Validation Loss is increasing, which is a warning sign of overfitting (small dataset).
 
 ![feature_importance](https://github.com/user-attachments/assets/fcb22bbe-4508-4389-8f33-12359ea1c8f8)
 
