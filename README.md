@@ -11,6 +11,7 @@ This project is a web-based questionnaire designed to detect deception based on 
 - [Frontend](#frontend)
 - [Saved data](#saved-data)
 - [Analysis of collected data](#analysis-of-collected-data)
+- [Neural network-modeling](#neural-network-modeling)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -211,6 +212,7 @@ Programs used for analysing collected data:
 
 ![lie_jerks](https://github.com/user-attachments/assets/8f26b30b-4c14-4ee1-84ad-af12b28db87c)
 - 6 spike counts were detected in truthful mouse movements and 12 spike counts in deceptive mouse movements which suggests more frequent rapid changes in motion during deception.
+  
 
 <svg width="1100" height="700" xmlns="http://www.w3.org/2000/svg">
   <!-- Title -->
@@ -286,7 +288,6 @@ Programs used for analysing collected data:
   <line x1="690" y1="300" x2="690" y2="320" stroke="#34495E" stroke-width="2" marker-end="url(#arrow)"/>
   <line x1="760" y1="345" x2="800" y2="330" stroke="#34495E" stroke-width="2" marker-end="url(#arrow)"/>
 </svg>
-
 
 ## Contributing
 Fork the repository.
