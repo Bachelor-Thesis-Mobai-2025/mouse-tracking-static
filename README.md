@@ -72,7 +72,7 @@ project-folder
 │   ├──calc_averages.py
 │   ├──plot_mouse_analyse.py
 │   └──plot_mouse_jerk.py
-│   └── model_training_dl_lstm_gru_v1.PY
+│   └──model_training_dl_lstm_gru_v1.py
 │
 ├──best_lstm_gru_model.h5
 ├──package-lock.json
