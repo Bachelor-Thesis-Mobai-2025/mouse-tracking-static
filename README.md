@@ -285,12 +285,12 @@ Evaluation Metrics:
  - **Loss curves**
 
 Model Persistence:
- - Trained model is saved as **`best_lstm_gru_model.h5`**<br />
-
+ - Trained model is saved as **`best_lstm_gru_model.h5`**
+$~$
 <kbd>
-  <img src="https://github.com/user-attachments/assets/7a09b49f-578e-4884-805d-3438080fd836"><br /><br />
+  <img src="https://github.com/user-attachments/assets/7a09b49f-578e-4884-805d-3438080fd836">
 </kbd>
-
+$~$
 Results with current network:
 
 Overall accuracy 0.60 ≈ 60%, model is correctly predicting 42 out of 70 samples.
