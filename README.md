@@ -287,7 +287,7 @@ Evaluation Metrics:
 Model Persistence:
  - Trained model is saved as **`best_lstm_gru_model.h5`**
 
-
+<img src="[/images/logo.png](https://github.com/user-attachments/assets/7a09b49f-578e-4884-805d-3438080fd836)" style="border: 1px solid black" />
 ![Screenshot 2025-04-15 102645](https://github.com/user-attachments/assets/7a09b49f-578e-4884-805d-3438080fd836)
 
 Results with current network:
