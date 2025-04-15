@@ -64,6 +64,7 @@ project-folder
 │   └──session_1743403663235
 │      ├──part_1
 │      └──part_2
+│     
 ├──utils
 │   ├──average_mouse_pattern.py
 │   ├──average_mouse_stats_chart.py
@@ -71,6 +72,9 @@ project-folder
 │   ├──calc_averages.py
 │   ├──plot_mouse_analyse.py
 │   └──plot_mouse_jerk.py
+│   └── model_training_dl_lstm_gru_v1.PY
+│
+├──best_lstm_gru_model.h5
 ├──package-lock.json
 ├──package.json
 └──server.js
