@@ -12,6 +12,8 @@ This project is a web-based questionnaire designed to detect deception based on 
 - [Saved data](#saved-data)
 - [Analysis of collected data](#analysis-of-collected-data)
 - [Neural network modeling](#neural-network-modeling)
+- [Research Findings](#research-findings)
+- [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
 
