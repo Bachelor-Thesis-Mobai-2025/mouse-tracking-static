@@ -291,7 +291,7 @@ Model Persistence:
   <img src="https://github.com/user-attachments/assets/7a09b49f-578e-4884-805d-3438080fd836">
 </kbd>
  <br>
-Results with current network:
+<br>Results with current network:
 
 Overall accuracy 0.60 ≈ 60%, model is correctly predicting 42 out of 70 samples.
 
