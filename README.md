@@ -313,7 +313,24 @@ Interpretation per class:
 
 ![feature_correlation_matrix](https://github.com/user-attachments/assets/8b7d716a-092e-4102-821c-48179677215f)
 
+## Research Findings
+- Movement dynamics velocity and acceleration change velocity are the most discriminative features.
+- Path efficiency and movement smoothness show significant differences between truthful and deceptive responses.
+- The model, at best, has achieved 60% accuracy on the test set.
+- The best-performing training was selected as the final model.
+- Visualization outputs stored in the Images directory.
 
+## Technologies Used
+- Backend: JavaScript
+- Frontend: HTML, CSS, JavaScript
+- Data Analysis:
+  - Pandas
+  - NumPy
+  - Matplotlib
+  - Seaborn
+- Machine Learning:
+  - TensorFlow/Keras (neural network implementation)
+  - Scikit-learn (data splitting and evaluation)
 
 ## Contributing
 Fork the repository.
