@@ -214,6 +214,49 @@ Programs used for analysing collected data:
 - 6 spike counts were detected in truthful mouse movements and 12 spike counts in deceptive mouse movements which suggests more frequent rapid changes in motion during deception.
 
 ## Neural network modeling 
+Deep Learning Model Architecture:
+- Input: Sequences of mouse movement features (150 timesteps × 6 features)
+
+- Model: LSTM → GRU → Dense → Dropout → Sigmoid
+
+- LSTM (64): Captures long-term temporal dependencies.
+
+- GRU (64): Efficiently refines short-term patterns.
+
+- Dense (64, ReLU): High-level feature transformation.
+
+- Dropout (0.3): Prevents overfitting.
+
+Input Features from JSON files containing mouse trajectory data:
+
+- x, y coordinates
+
+- velocity
+
+- acceleration
+
+- jerk
+  
+- curvature
+  
+Each sequence is padded or truncated to 150 time steps.
+
+Data Handling
+- Loads and preprocesses .json files from:
+
+ - data/truthful_responses/
+
+ - data/deceptive_responses/
+
+Combines, labels (0 for truthful, 1 for deceptive), and normalizes input.
+
+Split:
+
+- 70% training
+
+- 20% validation
+
+- 10% test
 
 ![Screenshot 2025-04-15 102645](https://github.com/user-attachments/assets/7a09b49f-578e-4884-805d-3438080fd836)
 
